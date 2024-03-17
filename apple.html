@@ -17,6 +17,9 @@
       padding: 20px;
       text-align: center;
     }
+    nav {
+      display: none; /* Hide the navigation bar */
+    }
     .container {
       max-width: 800px;
       margin: 20px auto;
@@ -42,6 +45,10 @@
     }
     .video-link a:hover {
       background-color: #f0f0f0;
+    }
+    .embedded-content {
+      width: 100%; /* Make the embedded content fill the container */
+      height: 600px; /* Set the height of the embedded content */
     }
   </style>
 </head>
@@ -80,8 +87,10 @@
         <a href="https://youtube.com/shorts/POFLuloYIaw" target="_blank">Video 15</a>
       </div>
     </div>
+    <!-- Embed -->
+    <div class="embedded-content">
+      <script async src="//jsfiddle.net/OSConcepts/p5g1kfs9/embed/"></script>
+    </div>
   </div>
-  <!-- Embedded script -->
-  <script async src="//jsfiddle.net/OSConcepts/p5g1kfs9/embed/"></script>
 </body>
 </html>
